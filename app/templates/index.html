@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+    <h1>Encrypt and Descrypt messages</h1>
+    <h4>Using up to date security standards</h4>
+    <p>Enter a message to encrypt and a password</p>
+    <form action="/encrypt" method="post">
+        <input type="text" name="message" placeholder="Message goes here">
+        <input type="password" name="password" placeholder="Password goes here">
+        <input type="submit" value="Send">
+    </form>
+    <p>Or enter an encrypted message to decyrpt and the password used to encrypt it</p>
+    <form action="/decrypt" method="post">
+        <input type="text" name="ciphertext" placeholder="Encrypted message goes here">
+        <input type="password" name="password" placeholder="Password goes here">
+        <input type="submit" value="Decrypt">
+    </form>
+</body>
+</html>
