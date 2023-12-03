@@ -8,4 +8,6 @@ and expand on some of the concepts.
 * Followed an encrypt-then-mac approach using AES-128 on CTR mode for encryption and HMAC for integrity (up to date standars of security)
 * Additionally tested the HTTP requests using Postman
 
+[Video](https://drive.google.com/file/d/1m46Zh_fzgOOfGu8gn8Fgt3dQDqP16w3-/view?usp=sharing) of current state of the project
+
 Tools used: Python, HTML, Flask, Postman 
