@@ -9,7 +9,7 @@ def index():
     # return main page
     return render_template('index.html')
 
-@app.route('/encrypt', methods=['GET', 'POST'])
+@app.route('/encrypt', methods=['POST'])
 def encrypt():
     # Encrypt message
     if request.method == 'POST':
@@ -22,7 +22,7 @@ def encrypt():
         # return ciphertext
         return render_template('encrypt.html', ciphertext=ciphertext)
     
-@app.route('/decrypt', methods=['GET', 'POST'])
+@app.route('/decrypt', methods=['POST'])
 def decrypt():
     if request.method == 'POST':
         ciphertext = request.form['ciphertext']
