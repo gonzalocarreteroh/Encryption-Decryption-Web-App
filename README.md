@@ -1,4 +1,4 @@
-This is a personal project I am working on. I started this project because I wanted to combine the knowledge I have 
+This is a personal project I worked on during my Fall 23 term. I started this project because I wanted to combine the knowledge I had 
 gained in my courses Applied Cryptography and Computer Networks, in order to solidify my understanding of both subjects 
 and expand on some of the concepts.
 
