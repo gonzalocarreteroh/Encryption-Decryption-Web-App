@@ -11,4 +11,4 @@ and expand on some of the concepts.
 <a href="https://drive.google.com/file/d/1m46Zh_fzgOOfGu8gn8Fgt3dQDqP16w3-/view?usp=sharing" target="_blank">Video</a> of current state of the project
 
 
-Tools used: Python, HTML, Flask, Postman 
+Tools used: Python, HTML, Flask, Postman
